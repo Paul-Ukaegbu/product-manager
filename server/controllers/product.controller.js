@@ -1,4 +1,4 @@
-const Product = require("../models/models.product")
+const {Product} = require("../models/models.product")
 
 module.exports.createProduct = (req,res) => {
     const{title, price, description} = req.body
